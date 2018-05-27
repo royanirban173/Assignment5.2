@@ -1,0 +1,33 @@
+'''
+SOURCE CODE :
+'''
+
+def lstToSentence(lst1,lst2,lst3):
+    for i in lst1:
+        for j in lst2:
+            for k in lst3:
+                print(i+' '+j+' '+k+'.')
+
+
+'''
+SAMPLE INPUT :
+'''
+
+subjects=['Americans','Indians']
+verbs=['play','watch']
+objects=['Baseball','Cricket']
+
+lstToSentence(subjects,verbs,objects)
+
+'''
+OUTPUT
+'''
+
+Americans play Baseball.
+Americans play Cricket.
+Americans watch Baseball.
+Americans watch Cricket.
+Indians play Baseball.
+Indians play Cricket.
+Indians watch Baseball.
+Indians watch Cricket.
